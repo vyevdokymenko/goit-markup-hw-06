@@ -7,6 +7,20 @@
     align-items: center;
 }
 
+.nav, .address {
+    display: none;
+}
+
+.nav-toggle {
+    background: transparent;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    margin-left: auto;
+}
+
 .nav ul,
 .address ul {
     display: flex;
@@ -27,6 +41,31 @@
     padding: 24px 0;
     display: block;
     font-weight: 500;
+}
+
+@media (min-width: 768px) {
+    .nav, .address {
+        display: block;
+    }
+
+    .nav-toggle {
+        display: none;
+    }
+
+    .address ul {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .address ul li a {
+        padding: 0;
+    }
+}
+
+@media (min-width: 1158px) {
+    .address ul {
+        flex-direction: row;
+    }
 }
 
 .address ul li a {

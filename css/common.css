@@ -64,7 +64,13 @@ button, button:focus, button:hover, button:active {
 .container {
     max-width: 1158px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 16px;
+}
+
+@media (min-width: 768px) {
+    .container {
+        padding: 0 15px;
+    }
 }
 
 .section {
