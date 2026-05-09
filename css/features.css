@@ -1,0 +1,25 @@
+.features h3 {
+    text-align: left;
+}
+
+.features-list {
+    display: flex;
+    gap: 24px;
+}
+
+.features-item {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: calc((100% - 3 * 24px) / 4);
+}
+
+.features-item .decoration {
+    background-color: #F4F4FD;
+    height: 112px;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
