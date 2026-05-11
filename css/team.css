@@ -1,15 +1,18 @@
 .team {
     background-color: #F4F4FD;
+    padding: 96px 0;
 }
 
 .team .container {
     display: flex;
     flex-direction: column;
     gap: 72px;
+    padding: 0 16px;
 }
 
 .team-list {
     display: flex;
+    flex-direction: column;
     gap: 24px;
 }
 
@@ -64,4 +67,22 @@
 .social-links li a:hover,
 .social-links li a:focus {
     background-color: #404BBF;
+}
+
+@media (min-width: 768px) {
+    .team-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 1158px) {
+    .team {
+        padding: 120px 0;
+    }
+
+    .team .container {
+        padding: 0 15px;
+    }
 }
