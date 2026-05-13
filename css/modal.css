@@ -26,7 +26,7 @@
     box-shadow: 0 1px 1px 0 #00000024, 0 1px 3px 0 #0000001F, 0 2px 1px 0 #00000033;
     padding: 72px 24px 24px;
     border-radius: 4px;
-    max-width: 408px;
+    max-width: 288px;
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -78,7 +78,6 @@
 .modal-form {
     display: flex;
     flex-direction: column;
-    width: 360px;
 }
 
 .modal-form .fields {
@@ -214,4 +213,14 @@
 .button-primary.button-modal {
     width: 169px;
     align-self: center;
+}
+
+@media (min-width: 768px) {
+    .modal {
+        max-width: 408px;
+    }
+
+    .modal-form {
+        width: 360px;
+    }
 }

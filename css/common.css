@@ -111,3 +111,7 @@ img {
 .button-primary:focus {
     background-color: #404BBF;
 }
+
+.current {
+    color: #404BBF;
+}

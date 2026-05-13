@@ -7,7 +7,7 @@
     align-items: center;
 }
 
-.nav, .address {
+.header .nav, .header .address {
     display: none;
 }
 
@@ -44,7 +44,7 @@
 }
 
 @media (min-width: 768px) {
-    .nav, .address {
+    .header .nav, .header .address {
         display: block;
     }
 
@@ -85,10 +85,6 @@
 .address ul li a:hover,
 .nav ul li a:focus,
 .address ul li a:focus {
-    color: #404BBF;
-}
-
-.nav ul li a.current {
     color: #404BBF;
 }
 
