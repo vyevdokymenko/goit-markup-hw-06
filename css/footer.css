@@ -22,6 +22,12 @@
     align-items: center;
 }
 
+.left p {
+    text-align: left;
+    align-self: flex-start;
+    width: 100%;
+}
+
 .footer-section {
     display: flex;
     gap: 16px;
@@ -112,6 +118,10 @@
         align-items: flex-start;
     }
 
+    .left p {
+        text-align: left;
+    }
+
     .footer-section {
         align-items: flex-start;
     }
@@ -123,7 +133,6 @@
     }
 
     .subscribe-email {
-        flex-grow: 1;
         width: 264px;
     }
 }
@@ -137,10 +146,6 @@
         padding: 0 15px;
         gap: 0;
         align-items: baseline;
-    }
-
-    .subscribe.footer-section {
-        margin-left: 83px;
     }
 
     .left {
