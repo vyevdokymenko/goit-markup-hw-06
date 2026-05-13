@@ -136,14 +136,19 @@
     .footer .container {
         padding: 0 15px;
         gap: 0;
+        align-items: baseline;
     }
 
     .subscribe.footer-section {
         margin-left: 83px;
     }
 
-    .footer-section {
-        margin-left: 120px;
+    .left {
+        margin-right: 120px;
+    }
+
+    .subscribe {
+        margin-left: auto;
     }
 
     .subscribe-form {

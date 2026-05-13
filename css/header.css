@@ -45,6 +45,15 @@
     font-weight: 500;
 }
 
+.address ul li a {
+    font-weight: 400;
+    font-style: normal;
+    color: #434455;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+}
+
 @media (min-width: 768px) {
     .header .nav, .header .address {
         display: block;
@@ -69,6 +78,10 @@
 }
 
 @media (min-width: 1158px) {
+    .header .logo {
+        margin-right: 76px;
+    }
+
     .address ul {
         flex-direction: row;
         gap: 40px;
@@ -79,15 +92,6 @@
         line-height: 1.5;
         letter-spacing: 0.02em;
     }
-}
-
-.address ul li a {
-    font-weight: 400;
-    font-style: normal;
-    color: #434455;
-    font-size: 12px;
-    line-height: 1.16;
-    letter-spacing: 0.04em;
 }
 
 .nav ul li a,
