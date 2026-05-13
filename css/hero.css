@@ -29,7 +29,7 @@
     letter-spacing: 0.02em;
 }
 
-@media (min-resolution: 2x) and (min-width: 320px) {
+@media (min-resolution: 2x) {
     .hero {
         background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)),

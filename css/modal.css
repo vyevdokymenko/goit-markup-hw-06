@@ -24,7 +24,7 @@
 .modal {
     background-color: #FCFCFC;
     box-shadow: 0 1px 1px 0 #00000024, 0 1px 3px 0 #0000001F, 0 2px 1px 0 #00000033;
-    padding: 72px 24px 24px;
+    padding: 72px 16px 24px;
     border-radius: 4px;
     max-width: 288px;
     display: flex;
@@ -218,6 +218,7 @@
 @media (min-width: 768px) {
     .modal {
         max-width: 408px;
+        padding: 72px 24px 24px;
     }
 
     .modal-form {

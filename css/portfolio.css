@@ -80,6 +80,10 @@
 }
 
 @media (min-width: 1158px) {
+    .portfolio {
+        padding: 120px 0;
+    }
+
     .project-list {
         row-gap: 48px;
     }

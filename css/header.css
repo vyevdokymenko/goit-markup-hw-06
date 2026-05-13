@@ -50,6 +50,10 @@
         display: block;
     }
 
+    .header .logo {
+        margin-right: 120px;
+    }
+
     .nav-toggle {
         display: none;
     }
@@ -67,6 +71,13 @@
 @media (min-width: 1158px) {
     .address ul {
         flex-direction: row;
+        gap: 40px;
+    }
+
+    .address ul li a {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
     }
 }
 
@@ -74,7 +85,9 @@
     font-weight: 400;
     font-style: normal;
     color: #434455;
-    letter-spacing: 0.02em;
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.04em;
 }
 
 .nav ul li a,

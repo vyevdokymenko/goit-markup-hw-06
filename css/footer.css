@@ -30,6 +30,7 @@
 }
 
 .footer-section .social-links {
+    display: flex;
     gap: 16px;
 }
 
@@ -51,7 +52,7 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 16px;
     align-items: center;
 }
 
@@ -118,14 +119,20 @@
     .subscribe-form {
         width: 453px;
         flex-direction: row;
+        gap: 24px;
     }
 
     .subscribe-email {
         flex-grow: 1;
+        width: 264px;
     }
 }
 
 @media (min-width: 1158px) {
+    .footer {
+        padding: 100px 0;
+    }
+
     .footer .container {
         padding: 0 15px;
         gap: 0;

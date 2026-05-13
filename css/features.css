@@ -27,6 +27,10 @@
     text-align: center;
 }
 
+.features-item p {
+    font-weight: 500;
+}
+
 .features-item .decoration {
     background-color: #F4F4FD;
     height: 112px;
@@ -69,6 +73,16 @@
 
     .features-item {
         flex-basis: calc((100% - 3 * 24px) / 4);
+    }
+
+    .features-item p {
+        font-weight: 400;
+    }
+
+    .features-item h3 {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
     }
 
     .features-item .decoration {
